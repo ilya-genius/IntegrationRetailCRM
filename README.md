@@ -14,7 +14,9 @@
 
 ## Структура файла .env
 RETAILCRM_API_KEY=YOUR_KEY
+
 RETAILCRM_API_URL=https://{subdomain}.retailcrm.ru
+
 LOG_LEVEL=INFO
 
 ## Основные моменты реализации
