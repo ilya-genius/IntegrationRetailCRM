@@ -1,0 +1,114 @@
+# ----------------------------------------
+#  Python
+# ----------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.log
+*.sqlite3
+*.db
+
+# Virtualenv
+.venv/
+venv/
+ENV/
+env/
+
+# Pydantic / mypy / pytest caches
+.mypy_cache/
+.pytest_cache/
+.pyre/
+.hypothesis/
+.cache/
+
+# Byte-compiled / optimized / DLL files
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+wheels/
+*.manifest
+*.spec
+
+# ----------------------------------------
+#  FastAPI / Uvicorn
+# ----------------------------------------
+instance/
+*.pid
+
+# ----------------------------------------
+#  Environment
+# ----------------------------------------
+.env
+.env.*
+!.env.example
+
+# ----------------------------------------
+#  Docker
+# ----------------------------------------
+# Ignore Docker build artifacts
+**/.dockerignore
+docker-compose.override.yml
+docker-data/
+docker-volumes/
+*.tar
+
+# Do not ignore Dockerfile
+!Dockerfile
+
+# ----------------------------------------
+#  IDE / Editors
+# ----------------------------------------
+# VSCode
+.vscode/
+.history/
+.settings/
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# SublimeText
+*.sublime-*
+
+# JetBrains
+out/
+
+# ----------------------------------------
+#  OS files
+# ----------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ----------------------------------------
+#  Project-specific
+# ----------------------------------------
+# Logs
+logs/
+*.log
+
+# RetailCRM temp files, responses, debug dumps
+debug/
+tmp/
+temp/
+
+# Local scripts that should not be in repository
+local/
+scripts/local_*/
+
+# Cache of HTTPX / API responses (если делал запись)
+.httpx_cache/
